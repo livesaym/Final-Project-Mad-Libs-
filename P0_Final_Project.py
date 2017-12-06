@@ -7,8 +7,11 @@
 # Purpose: Similar to the "Mad Libs" assignment, but improved with
 #           classes.
 ######################################################################
-import P0_Classes
+from P0_Classes import Paragraph
 
 def main():
-    One = input("Please input a word.")
-    print("""You are a""" + One)
+    para = Paragraph()
+    print (para)
+
+main()
+
