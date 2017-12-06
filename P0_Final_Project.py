@@ -15,6 +15,4 @@ def main():
     para.finder()
     para.assembler()
 
-
 main()
-
