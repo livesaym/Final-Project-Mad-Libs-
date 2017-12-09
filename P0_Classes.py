@@ -25,7 +25,7 @@ class Word:
 
 class Mad_Lib:
     """
-    Will contain the bulk story. The words placed in the story will involve using the "Word" class.
+    Will contain the bulk of the story. The words placed in the story will involve using the "Word" class.
     """
     def __init__(self):
         self.lst = [Word("verb", 0), Word("noun", 1), Word("adjective", 2), Word("verb", 3), Word("adjective", 4), Word("place", 5), Word("verb", 6), Word("dragon or knight", 7), Word("adjective", 8)] # Contains the list of spots that the user can put words into the story.
