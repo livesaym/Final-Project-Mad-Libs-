@@ -15,5 +15,6 @@ def main():
     print ("Now, fill in the blanks of the story!")
     para.finder()
     para.assembler()
+    input("Press enter to exit.")
 
 main()

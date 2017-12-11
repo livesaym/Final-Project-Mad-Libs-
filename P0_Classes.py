@@ -28,7 +28,7 @@ class Mad_Lib:
     Will contain the bulk of the story. The words placed in the story will involve using the "Word" class.
     """
     def __init__(self):
-        self.lst = [Word("verb", 0), Word("noun", 1), Word("adjective", 2), Word("verb", 3), Word("adjective", 4), Word("place", 5), Word("verb", 6), Word("dragon or knight", 7), Word("adjective", 8)] # Contains the list of spots that the user can put words into the story.
+        self.lst = [Word("verb", 0), Word("noun", 1), Word("adjective", 2), Word("verb", 3), Word("adjective", 4), Word("place", 5), Word("verb", 6), Word("combatant", 7), Word("adjective", 8)] # Contains the list of spots that the user can put words into the story.
         self.Para = "Once upon a time the was a dragon who " + str(self.lst[0]) + " down a town. The king was very " + str(self.lst[1]) +\
                           ". He sent his " + str(self.lst[2]) + " knight to go and " + str(self.lst[3]) + " the dragon for what it had done. "\
                             "The knight travel for many " + str(self.lst[4]) + " days before finally reaching the " + str(self.lst[5]) + " where" \
